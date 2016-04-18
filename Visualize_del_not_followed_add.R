@@ -13,6 +13,10 @@ library(plyr)
 library(lattice)
 library(gridExtra)
 
+check <- function(){
+	a <- readline("Just for check")
+}
+
 #Function to read the file and get into a frame.
 readFile <- function(){
 	ans <- readline("Input the file name")
